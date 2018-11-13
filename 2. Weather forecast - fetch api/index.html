@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Weather Forecast</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>		
+		<div id = "wrapper">
+			<div id = "input-block">
+				<input id = "set-city" placeholder= "enter city...">
+				<button id = "submit-city" type = "submit" >Get Weather</button>
+			</div>
+			<div id = "show-weather-block">				
+				<h3>Weather in <span id = "city"></span></h3>
+				<div id = "main-info">					
+					<div>
+						<p><span id = "weather"></span><p>				
+						<p><span id = "temperature"></span></p>							
+					</div>
+					<img id = "weather-image" src = "http://openweathermap.org/img/w/03d.png">
+					<div id = "additional-info">
+						<p>Wind Speed: <span id = "wind-speed"></span></p>
+						<p>Humidity: <span id = "humidity"></span></p>		
+					</div>
+				</div>					
+			</div>
+		</div>
+  		<script src="script.js"></script>
+	</body>
+</html>
